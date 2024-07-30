@@ -5,7 +5,7 @@ Vagrant.configure("2") do |config|
     vb.gui = true
   end
   
-  N = 1
+  N = 2
   (1..N).each do |i|
 
     config.vm.define "node#{i}" do |node|
